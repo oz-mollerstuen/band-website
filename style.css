@@ -1,0 +1,38 @@
+.sidebar {
+  width: 20%;
+  height: 2000px;
+  float: left;
+  background-color: black;
+  color: darkgoldenrod;
+}
+
+body {
+  text-align: center;
+  color: chocolate;
+}
+
+.pics {
+  float: left;
+  width: 20%;
+  height: 2000px;
+  background-color: black;
+
+}
+
+.text {
+  float: left;
+  width: 60%;
+}
+
+h2 {
+  background-color: black;
+  color: darkgoldenrod;
+}
+
+h1 {
+  background-color: aqua;
+}
+
+.sidebar h1 {
+  background-color: black;
+}
