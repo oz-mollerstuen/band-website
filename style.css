@@ -6,11 +6,15 @@
   color: darkgoldenrod;
   border-color: goldenrod; 
   border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
 }
 
 body {
   text-align: center;
   color: chocolate;
+  font-family: fantasy;
 }
 
 .pics {
@@ -21,18 +25,32 @@ body {
   border-color: black;
   border-style: solid;
   border-width: 9px;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
 
 }
 
 .pics img {
   display: block;
   width: 95%;
-
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
 }
 
 .text {
   float: left;
   width: 55%;
+  font-size: larger;
+}
+
+.text p {
+  font-size: x-large;
+  padding: 15px;
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: fantasy;
 }
 
 h2 {
