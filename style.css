@@ -4,6 +4,8 @@
   float: left;
   background-color: black;
   color: darkgoldenrod;
+  border-color: goldenrod; 
+  border-style: solid;
 }
 
 body {
@@ -16,12 +18,21 @@ body {
   width: 20%;
   height: 2000px;
   background-color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 9px;
+
+}
+
+.pics img {
+  display: block;
+  width: 95%;
 
 }
 
 .text {
   float: left;
-  width: 60%;
+  width: 55%;
 }
 
 h2 {
@@ -31,8 +42,13 @@ h2 {
 
 h1 {
   background-color: aqua;
+  padding: 3%;
 }
 
 .sidebar h1 {
   background-color: black;
+}
+
+.text h2 {
+  padding: 5%;
 }
